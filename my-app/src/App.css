@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.section {
+  min-height: calc(100vh - 100px - 143px);
+}
+.items-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.new-request,
+.requests h3 {
+  overflow-x: scroll;
+}

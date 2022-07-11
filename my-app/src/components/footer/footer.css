@@ -1,0 +1,33 @@
+ul {
+  list-style: none;
+}
+.footer {
+  padding-bottom: 2rem;
+  background: black;
+  margin-top: 10px;
+  display: grid;
+  color: white;
+  place-items: center;
+}
+.footer .social-icons {
+  margin-bottom: 2rem;
+}
+.footer .social-icon {
+  color: white;
+}
+.footer p {
+  font-size: 1.25rem;
+}
+.social-icons {
+  display: grid;
+  margin-top: 3rem;
+  width: 20rem;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+.social-icons a {
+  color: white;
+}
+.social-icon:hover {
+  color: rgb(244, 208, 142);
+}
