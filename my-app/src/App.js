@@ -18,10 +18,10 @@ function App() {
       const { ethereum } = window;
 
       if (!ethereum) {
-        console.log("Make sure you have metamask!");
+        alert("Please download & setup Metamask!");
         return;
       } else {
-        console.log("We have the ethereum object");
+        console.log("Ethereum object found");
       }
 
       /*
@@ -46,7 +46,7 @@ function App() {
       const { ethereum } = window;
 
       if (!ethereum) {
-        alert("Get MetaMask!");
+        alert("Please download & setup Metamask!");
         return;
       }
 
