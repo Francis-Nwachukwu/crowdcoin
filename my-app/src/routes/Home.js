@@ -40,11 +40,7 @@ const Home = () => {
         />
       </Link>
 
-      {campaigns.length === 0 ? (
-        <Loading loadingText="Fetching Campaigns. Check your data connection." />
-      ) : (
-        renderCampaigns()
-      )}
+      {campaigns.length === 0 ? <Loading loadingText="" /> : renderCampaigns()}
       <div>
         * Found ({campaigns.length}) requests. Create a new campaign to become
         the Manager of the campaign.
